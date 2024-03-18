@@ -1,0 +1,35 @@
+* body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  position: fixed; /* 将nav固定在屏幕上方 */
+  height: 60px;
+  width: 100%; /* 设置导航栏宽度为100% */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* 添加背景颜色，使导航栏内容更加清晰可见 */
+  z-index: 1; /* 确保导航栏位于页面其他内容之上 */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav a {
+  margin-right: 20px;
+}
+.bg {
+  position: relative;
+  height: 100vh; /* 使用视窗高度作为背景容器的高度 */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* 水平居中内容 */
+  align-items: center; /* 垂直居中内容 */
+}
